@@ -12,7 +12,7 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="32467F3B-5906-4fca-BED7-DF883C62AD3B" name="LSW7" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-F4-5F-D8" com_port="2010" bootmode="1" cx="731.000000" cy="303.000000" edit_left="758" edit_top="357">
+        <dev id="32467F3B-5906-4fca-BED7-DF883C62AD3B" name="LSW7" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-F4-5F-D8" com_port="2010" bootmode="0" cx="731.000000" cy="303.000000" edit_left="758" edit_top="357">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
@@ -27,23 +27,6 @@
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
-            </slot>
-        </dev>
-        <dev id="6B1CA6D9-AACA-4adf-850F-D2C084183D9C" name="AR5" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-8C-12-03" com_port="2011" bootmode="1" cx="937.000000" cy="213.000000" edit_left="964" edit_top="267">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="1" />
-                <interface sztype="Ethernet" interfacename="GE" count="2" />
-            </slot>
-        </dev>
-        <dev id="45AC7A99-B9C8-49de-A877-4209620D3961" name="AR6" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-53-5E-39" com_port="2012" bootmode="1" cx="954.000000" cy="309.000000" edit_left="981" edit_top="363">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="1" />
-                <interface sztype="Ethernet" interfacename="GE" count="2" />
-            </slot>
-        </dev>
-        <dev id="BDEDB8BE-588D-4d5f-BBA1-63BFFA1F2D0B" name="PC6" poe="0" model="PC" settings=" -simpc_ip 0.0.0.0  -simpc_mask 0.0.0.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-DB-40-2B  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-DB-40-2B" com_port="0" bootmode="1" cx="941.000000" cy="436.000000" edit_left="968" edit_top="490">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
         <dev id="0564B56C-8585-4898-8114-26B2ABBC6D2E" name="PC3" poe="0" model="PC" settings=" -simpc_ip 192.168.200.3  -simpc_mask 255.255.255.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-6B-62-2C  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-6B-62-2C" com_port="0" bootmode="0" cx="456.000000" cy="812.000000" edit_left="483" edit_top="866">
@@ -82,6 +65,23 @@
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
+        <dev id="C2F533A9-3DB2-4fed-8A20-825FA2FF427D" name="AR4" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-01-45-41" com_port="2009" bootmode="0" cx="528.000000" cy="303.000000" edit_left="555" edit_top="357">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="BDEDB8BE-588D-4d5f-BBA1-63BFFA1F2D0B" name="PC6" poe="0" model="PC" settings=" -simpc_ip 192.168.4.2  -simpc_mask 255.255.255.0  -simpc_gateway 0.0.0.0  -simpc_mac 54-89-98-DB-40-2B  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-DB-40-2B" com_port="0" bootmode="0" cx="941.000000" cy="436.000000" edit_left="968" edit_top="490">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="9BA621C1-49B2-46d2-8822-C35675A8D539" name="AR3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-3C-64-11" com_port="2008" bootmode="0" cx="232.000000" cy="305.000000" edit_left="259" edit_top="359">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
         <dev id="E5CA8DC4-8CB5-4a70-BF72-901F630EC583" name="AR1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-11-24-4A" com_port="2006" bootmode="0" cx="229.000000" cy="407.000000" edit_left="256" edit_top="461">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="1" />
@@ -94,13 +94,13 @@
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
             </slot>
         </dev>
-        <dev id="9BA621C1-49B2-46d2-8822-C35675A8D539" name="AR3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-3C-64-11" com_port="2008" bootmode="0" cx="232.000000" cy="305.000000" edit_left="259" edit_top="359">
+        <dev id="6B1CA6D9-AACA-4adf-850F-D2C084183D9C" name="AR5" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-8C-12-03" com_port="2011" bootmode="0" cx="937.000000" cy="213.000000" edit_left="964" edit_top="267">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="1" />
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
             </slot>
         </dev>
-        <dev id="C2F533A9-3DB2-4fed-8A20-825FA2FF427D" name="AR4" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-01-45-41" com_port="2009" bootmode="0" cx="528.000000" cy="303.000000" edit_left="555" edit_top="357">
+        <dev id="45AC7A99-B9C8-49de-A877-4209620D3961" name="AR6" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-53-5E-39" com_port="2012" bootmode="0" cx="954.000000" cy="309.000000" edit_left="981" edit_top="363">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="1" />
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
