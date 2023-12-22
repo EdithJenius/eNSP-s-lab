@@ -1,0 +1,52 @@
+<wangguan_server>display current-configuration 
+#
+sysname wangguan_server
+#
+aaa
+ authentication-scheme default
+ authorization-scheme default
+ accounting-scheme default
+ domain default
+ domain default_admin
+ local-user admin password cipher 9@JT0&]QfRpe}@HMNPn@j-a#
+ local-user admin service-type http
+#
+firewall zone Local
+ priority 16
+#
+interface Ethernet0/0/0
+#
+interface Ethernet0/0/1
+#
+interface Serial0/0/0
+ link-protocol ppp
+#
+interface Serial0/0/1
+ link-protocol ppp
+#
+interface Serial0/0/2
+ link-protocol ppp
+#
+interface Serial0/0/3
+ link-protocol ppp
+#
+interface GigabitEthernet0/0/0
+#
+interface GigabitEthernet0/0/1
+#
+interface GigabitEthernet0/0/2
+#
+interface GigabitEthernet0/0/3
+ ip address 192.168.3.2 255.255.255.0
+#
+wlan
+#
+interface NULL0
+#
+ip route-static 0.0.0.0 0.0.0.0 192.168.3.1
+#
+user-interface con 0
+user-interface vty 0 4
+user-interface vty 16 20
+#
+return

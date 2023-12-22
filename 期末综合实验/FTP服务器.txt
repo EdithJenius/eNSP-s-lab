@@ -1,0 +1,58 @@
+<FTP_SERVER>display current-configuration 
+#
+sysname FTP_SERVER
+#
+FTP server enable
+#
+aaa
+ authentication-scheme default
+ authorization-scheme default
+ accounting-scheme default
+ domain default
+ domain default_admin
+ local-user admin password cipher `URoUd8=B$ani^>"qh^;v-_#
+ local-user admin service-type http
+ local-user ftpuser password cipher H"5#H8MNK!ani^>"qh^;v-_#
+ local-user ftpuser privilege level 3
+ local-user ftpuser ftp-directory flash:/
+ local-user ftpuser service-type ftp
+#
+firewall zone Local
+ priority 16
+#
+interface Ethernet0/0/0
+#
+interface Ethernet0/0/1
+#
+interface Serial0/0/0
+ link-protocol ppp
+#
+interface Serial0/0/1
+ link-protocol ppp
+#
+interface Serial0/0/2
+ link-protocol ppp
+#
+interface Serial0/0/3
+ link-protocol ppp
+#
+interface GigabitEthernet0/0/0
+#
+interface GigabitEthernet0/0/1
+#
+interface GigabitEthernet0/0/2
+#
+interface GigabitEthernet0/0/3
+ ip address 192.168.2.2 255.255.255.0
+#
+wlan
+#
+interface NULL0
+#
+ip route-static 0.0.0.0 0.0.0.0 192.168.2.1
+#
+user-interface con 0
+user-interface vty 0 4
+user-interface vty 16 20
+#
+return
